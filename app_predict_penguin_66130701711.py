@@ -18,9 +18,6 @@ Original file is located at
 - LabTest-xxx.pdf
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-
 import os
 os.chdir('/content/drive/MyDrive/!!!Workshop698-1-67/Mini-Exam')
 
