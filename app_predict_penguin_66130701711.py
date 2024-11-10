@@ -171,7 +171,7 @@ import pickle
 import pandas as pd
 
 # Assuming your model and encoders were saved in 'model_penguin_66130701711.pkl'
-with open('model_penguin_66130701711.pkl', 'rb') as file: # Changed the filename to match the saved file
+with open(model_path = 'model_penguin_66130701711.pkl', 'rb') as file: # Changed the filename to match the saved file
     # Load the data from the file
     model, species_encoder, island_encoder ,sex_encoder = pickle.load(file)
 
