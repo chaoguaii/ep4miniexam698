@@ -21,7 +21,8 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive')
 
-cd /content/drive/MyDrive/!!!Workshop698-1-67/Mini-Exam
+import os
+os.chdir('/content/drive/MyDrive/!!!Workshop698-1-67/Mini-Exam')
 
 """## Import Packages"""
 
